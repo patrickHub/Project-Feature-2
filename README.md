@@ -2,7 +2,7 @@ Project-Feature-2
 This repo contains artifacts to illustrate Angula JS development cycle, GitHub Page, and REST api to resquest and get data from github api.
 
 First of all, we have created an github landing page that can assess by clinking in links 
-[Absolute README link](https://patrickhub.github.io/Project-Feature-2/)
+[Landing page](https://patrickhub.github.io/Project-Feature-2/)
 
 
 developers You should have a Docker-Compose or Docker Toolbox in your environnment computer (such as Windows 10) to execute the app on the server.
