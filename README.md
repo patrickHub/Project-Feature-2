@@ -2,9 +2,11 @@ Project-Feature-2
 This repo contains artifacts to illustrate Angula JS development cycle, GitHub Page, and REST api to resquest and get data from github api.
 
 You can assess the 3 app by clinking in the links belows : 
-[Landing page](https://patrickhub.github.io/Project-Feature-2/)
-[Angula app](https://arcane-hamlet-81712.herokuapp.com/)
-[Rest api](https://blooming-earth-98873.herokuapp.com/api/repos)
+</br>
+</br>
+[Landing page](https://patrickhub.github.io/Project-Feature-2/) 
+[Angula app](https://arcane-hamlet-81712.herokuapp.com/) 
+[Rest api](https://blooming-earth-98873.herokuapp.com/api/repos) to get repoitories list of wasadi who is one of the formers contributors of GitHub Exployer
 
 developers You should have a Docker-Compose or Docker Toolbox in your environnment computer (such as Windows 10) to execute the app on the server.
 Quick start
