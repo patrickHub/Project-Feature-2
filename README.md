@@ -17,7 +17,7 @@ contributors of GitHub Exployer. </br> You can also get the number of repositori
 ### Contributors
 
 | **Tests** | **Resutats** | **Commentaires**<br/> |  
-| --- | --- |  
+| --- | --- | --- |
 | 171 | [jonschlinkert](https://github.com/jonschlinkert) | Effectué avec succés |
 | 4   | [stefanwalther](https://github.com/stefanwalther) |  |
 | 3   | [Marsup](https://github.com/Marsup) |  |
