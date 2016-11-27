@@ -18,20 +18,24 @@ contributors of GitHub Exployer. </br> You can also get the number of repositori
 
 | **Tests** | **Resutats** | **Commentaires**<br/> |  
 | --- | --- | --- |
-| 171 | [jonschlinkert](https://github.com/jonschlinkert) | Effectué avec succés |
-| 4   | [stefanwalther](https://github.com/stefanwalther) |  |
-| 3   | [Marsup](https://github.com/Marsup) |  |
-| 2   | [dvcrn](https://github.com/dvcrn) |  |
-| 2   | [maxogden](https://github.com/maxogden) |  |
-| 2   | [twang2218](https://github.com/twang2218) |  |
-| 2   | [zeke](https://github.com/zeke) |  |
-| 1   | [owzim](https://github.com/owzim) |  |
-| 1   | [Vortex375](https://github.com/Vortex375) |  |
-| 1   | [chendaniely](https://github.com/chendaniely) |  |
-| 1   | [Feder1co5oave](https://github.com/Feder1co5oave) |  |
-| 1   | [garygreen](https://github.com/garygreen) |  |
-| 1   | [TehShrike](https://github.com/TehShrike) |  |
-| 1   | [citizenmatt](https://github.com/citizenmatt) |  |
-| 1   | [RichardBradley](https://github.com/RichardBradley) |  |
-| 1   | [sethvincent](https://github.com/sethvincent) |  |
-| 1   | [lu22do](https://github.com/lu22do) |  |
+| Un lieur doit être obténu aléatoirement à partir d'une liste | [jonschlinkert](https://github.com/jonschlinkert) | Effectué avec succés |
+| Un lieur ou un serveur doit être redemarré aussitôt qu'il est tombé en panne  | [stefanwalther](https://github.com/stefanwalther) |  |
+| Après rédémarrage d'un lieur, il doit se mettre à jours par rapport aux autres lieurs disponibles   | [Marsup](https://github.com/Marsup) |  |
+| Le client doit s'arrêter ou attendre un délai après qu'il redemande un service inconnu auprès d'un lieur   | [dvcrn](https://github.com/dvcrn) |  |
+| Le lieur doit repondre uniquement aux service existants   | [maxogden](https://github.com/maxogden) |  |
+| Un client doit notifier un lieu d'un service non disponible   | [twang2218](https://github.com/twang2218) |  |
+| Après notification d'un client lieur doit mettre à jous sa table de service et la sychroniser avec les autres lieurs   | [zeke](https://github.com/zeke) |  |
+|  Le lieur doit distribuer les services de même type de façon cyclique entre les serveurs   | [owzim](https://github.com/owzim) |  |
+| Deux clients se connectent l'un apres l'autre (1 sec d'intervalle ) à un lieur pour l'informer que le service X est down (crash probable du au fait que le port d'ecoute du lieur sera occupé)   | [Vortex375](https://github.com/Vortex375) |  |
+| client fait une demande de service au lieur alors que celui si est en verification d'existance d'un autre service   | [chendaniely](https://github.com/chendaniely) |  |
+
+Un lieur doit être obténu aléatoirement à partir d'une liste;
+* Un lieur ou un serveur doit être redemarré aussitôt qu'il est tombé en panne;
+* Après rédémarrage d'un lieur, il doit se mettre à jours par rapport aux autres lieurs disponibles;
+* Le client doit s'arrêter ou attendre un délai après qu'il redemande un service inconnu auprès d'un lieur;
+* Le lieur doit repondre uniquement aux service existants;
+* Un client doit notifier un lieu d'un service non disponible;
+* Après notification d'un client lieur doit mettre à jous sa table de service et la sychroniser avec les autres lieurs
+* Le lieur doit distribuer les services de même type de façon cyclique entre les serveurs
+* Deux clients se connectent l'un apres l'autre (1 sec d'intervalle ) à un lieur pour l'informer que le service X est down (crash probable du au fait que le port d'ecoute du lieur sera occupé)
+* client fait une demande de service au lieur alors que celui si est en verification d'existance d'un autre service.
